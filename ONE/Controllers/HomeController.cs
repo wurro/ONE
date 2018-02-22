@@ -12,10 +12,12 @@ namespace ONE.Controllers
         {
             return View();
         }
-
+        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            double n = 1 % 1;
+            Console.WriteLine(Convert.ToInt32("22s"));
 
             return View();
         }
